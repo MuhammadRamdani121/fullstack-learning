@@ -32,3 +32,11 @@ const mahasiswaAktif = latihanArray.filter((namaMahasiswa) => {
 
 // Memanggil filter
 console.log(mahasiswaAktif);
+
+// !Menggunakan Array Find
+const mencariMahasiswa = latihanArray.find((mahasiswa) => {
+  return mahasiswa.id === 2;
+});
+
+// Memanggil Find
+console.log(mencariMahasiswa);
