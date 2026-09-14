@@ -16,3 +16,11 @@ console.log(latihanArray[0].nama);
 latihanArray.push({ id: 4, nama: 'Hani', mahasiswa: true });
 
 console.log(latihanArray);
+
+// Menggunakan array MAP
+const namaMahasiswa = latihanArray.map((nama) => {
+  return nama.nama;
+});
+
+// memanggil namaMahasiswa
+console.log(namaMahasiswa);
