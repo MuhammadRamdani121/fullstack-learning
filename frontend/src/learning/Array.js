@@ -17,10 +17,18 @@ latihanArray.push({ id: 4, nama: 'Hani', mahasiswa: true });
 
 console.log(latihanArray);
 
-// Menggunakan array MAP
+//! Menggunakan array MAP
 const namaMahasiswa = latihanArray.map((nama) => {
   return nama.nama;
 });
 
 // memanggil namaMahasiswa
 console.log(namaMahasiswa);
+
+//! Menggunakan Array Filter
+const mahasiswaAktif = latihanArray.filter((namaMahasiswa) => {
+  return namaMahasiswa.mahasiswa === true;
+});
+
+// Memanggil filter
+console.log(mahasiswaAktif);
