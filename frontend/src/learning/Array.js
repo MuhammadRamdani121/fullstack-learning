@@ -5,6 +5,8 @@ const latihanArray = [
   { id: 3, nama: 'Muhammad Ramdani', mahasiswa: null },
 ];
 
+export default latihanArray;
+
 // Memanggil Array
 console.log(latihanArray);
 // Memanggil Array Index(Urutan) pertama
