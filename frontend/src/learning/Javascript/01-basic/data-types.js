@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-vars */
-
 const nama = 'Ramdani';      //String (Huruf)
 const age = 12;              //Number (Angka)
 const isStudent = true;      //boolean (True dan false)

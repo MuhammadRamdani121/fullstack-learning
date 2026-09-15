@@ -12,5 +12,6 @@ umur = 20;
 // let umur = 20; //error
 
 // Memanggil variabel nama
-console.log(nama);
 console.log(umur);
+console.log(nama);
+
