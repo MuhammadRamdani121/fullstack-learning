@@ -1,10 +1,10 @@
 // Asynchronous (async)
 // Ada pekerjaan yang membutuhkan waktu, jadi JavaScript bisa melanjutkan pekerjaan lain sambil menunggu.
 
-console.log("A");
+console.log('A');
 
 setTimeout(() => {
-  console.log("B");
+    console.log('B');
 }, 2000);
 
-console.log("C");
+console.log('C');
